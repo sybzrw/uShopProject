@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+strong,b{
+    font-weight: normal;
+}
+
+em,i{
+    font-style: normal;
+}
+
+a,u{
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+img{
+    display: block;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.clearfix{
+    zoom: 1;
+}
